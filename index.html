@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <!--Link css-->
+    <link rel="stylesheet" href="/css/style.css"/>
+
+    <!--Media query-->
+    <link rel="stylesheet" href="/css/media.css"/>
+
+    <!-- Link Icones -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"/>
+
+</head>
+<body>
+    
+  <!--heard inicio-->
+  <header id="event-description">
+    <!--avisos gerais-->
+    <div id="disclaimer">
+        <h2><span id="rec">Recife Game</span></h2>
+        <p class="about-event">
+            Um evento para embarcar no mundo dos jogos
+        </p>
+        <p>Data do evento: </p>
+        <p class="event-date">
+            Domingo, 28 de maio, a partir das 14h
+        </p>
+    </div>
+    <!--Formulário-->
+    <div id="subscription-form">
+        <p>Preencha o formulário para recber os detalhes do evento</p>
+        <form>
+            <!--nome-->
+            <div class="form-group">
+                <label for="name">Nome</label>
+                <input type="text" name="name" placeholder="Digite seu nome">
+            </div>
+            <!--email-->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Digite seu melhor email">
+            </div>
+
+            <!--telefone-->
+            <div class="form-group">
+                <label for="phone">Whatsapp</label>
+                <input type="text" name="phone" placeholder="Número do Whatsapp">
+            </div>
+
+            <!--Segmento-->
+            <div class="form-group">
+                <select name="interest">
+                    <option class="op" value="" disabled selected>Selecione</option>
+                    <option class="op" value="apartment">Apartamentos</option>
+                    <option class="op" value="house">Casas</option>
+                    <option class="op" value="garden">Jardins</option>
+                    <option class="op" value="other">Outro</option>
+                  </select>
+            </div>
+            <!--Botão-->
+            <input type="submit" class="btn" value="Quero me inscrever">
+        </form>
+    </div>
+  </header>
+  <!--heard fim-->
+
+  <!--Início Seção benefício do evento-->
+    <section id="key-benefits">
+       
+        <h2>O que você vai encontrar</h2>
+        <div class="benefits">
+
+        <!--Principais atividades do evento-->
+            <div class="benefit">
+                <div id="benefit-1" class="benefit-img"></div>
+                <h3 class="cent">Experiências Imersivas</h3>
+                <br>
+                <p>Experiências interativas em um ambiente de realidade virtual.</p>
+            </div>
+
+            <div class="benefit">
+                <div id="benefit-2" class="benefit-img"></div>
+                <h3 class="cent">Torneios Épicos</h3>
+                <br>
+                <p>prove suas habilidades em torneios emocionantes de uma variedade de jogos.</p>
+            </div>
+
+            <div class="benefit">
+                <div id="benefit-3" class="benefit-img"></div>
+                <h3 class="cent">Meetups</h3>
+                <br>
+                <p>Conheça outros jogadores apaixonados e faça parte de comunidades.</p>
+            </div>
+
+        </div>
+    </section>
+  <!--Fim Seção benefício do evento-->
+
+  <!--Iníco Seção Localização-->
+  <section id="location">
+    <!--Endereço-->
+    <div id="address">
+        <i class="bi bi-geo-alt-fill"></i>
+      <!--Detalhes-->
+      <div id="address-details">
+        <p>Rua do Apolo</p>
+        <p>Recife Antigo</p>
+        <p>Abertura: 14h</p>
+      </div>
+    </div>
+    <!--Sobre o local-->
+    <div id="about-location">
+      <h3>Local de destaque</h3>
+      <p>
+        Entre na arena principal e deixe-se envolver pela energia contagiante dos torneios épicos e das competições emocionantes.
+      </p>
+    </div>
+  </section>
+  <!--Fim Seção Localização-->
+
+  <!--Início Seção Detalhes -->
+  <section id="details">
+    <div class="detail" id="detail-1">
+        <img src="img/tela-jogo.jpg" alt="descriçaõ">
+        <div class="datail-description">
+            <h3>Descubra os segredos por trás dos bastidores e obtenha insights </h3>
+        </div>
+    </div>
+
+    <div class="detail" id="detail-2">
+        
+        <div class="datail-description">
+            <h3>Detalhes</h3>
+            <ul>
+                <li>Desenvolvimento de Jogos</li>
+                <li>Design de Jogos</li>
+                <li>Combinção de cores</li>
+                <li>Mercado de Jogos</li>
+                <li>E muito mais...</li>
+            </ul>
+        </div>
+        <img src="img/programacao.jpg" alt="descriçaõ">
+    </div>
+
+    <div class="detail" id="detail-3">
+        <img src="img/mario.jpg" alt="" />
+        <div class="detail-description">
+          <h3>Objetos</h3>
+          <ul>
+            <li>Tecnologias de Jogos</li>
+            <li>Mundo geek</li>
+            <li>Lançamentos</li>
+            <li>Otimização</li>
+            <li>Tendências Futuras:</li>
+            <li>E muito mais...</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Fim Seção Detalhes -->
+  
+  <!--Início Seção call to action-->
+  <section id="callSection">
+    <h3>Gostou? Então se inscreva</h3>
+    <button class="btn">Solicitar Inscrição</button>
+  </section>
+ <!--Fim Seção call to action-->
+
+ <!--Início Footer-->
+ <footer id="footer">
+    <h3>Recife Game</h3>
+    <p>Esteja pronto para se conectar</p>
+    <p><span>Entre em contato</span> recifegame@gmail.com</p>
+    <p><span>Ou pelo telefone</span> (55)9999-9999</p>
+ </footer>
+ <!--Fim Footer-->
+
+</body>
+</html>
